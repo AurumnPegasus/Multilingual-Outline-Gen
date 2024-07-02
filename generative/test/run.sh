@@ -1,0 +1,1 @@
+python test.py --batch_size 4 --train_path /scratch/user/langdomgen/train.json  --val_path /scratch/user/langdomgen/train.json  --test_path /scratch/user/langdomgen/train.json  --tokenizer google/mt5-small --model google/mt5-small --ckpt_path /scratch/user/modelsmt5-run-small/lightning-checkpoints/epoch=4-step=41550.ckpt  --exp_name random_mt5 --is_mt5 1
